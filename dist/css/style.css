@@ -1,0 +1,287 @@
+article {
+	padding-top: 10vh !important;
+}
+
+.fixedPosition {
+	position: fixed !important;
+	transition: .2s
+}
+
+.initialPosition {
+	position: initial !important;
+	transition: .2s
+}
+
+.cabecalho {
+	position: fixed !important;
+	width: 100vw;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: rgb(214, 213, 213);
+
+	padding: 10px;
+}
+
+.img {
+	text-align: right;
+	height: 480px;
+	width: 580px;
+	position: relative;
+	display: block;
+	float: left;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 20px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: black;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: rgb(50, 54, 54);
+}
+
+#logo img {
+	width: 100px;
+	height: 80px;
+}
+
+#logoesc img {
+	width: 100px;
+	height: 80px;
+}
+
+#imagem img {
+	width: 100px;
+	height: 80px;
+}
+
+.principal {
+	padding: 60px;
+	height: auto;
+	text-align: justify;
+	font-size: 23px;
+}
+
+#escola {
+	display: flex;
+	padding: 0;
+	align-items: center;
+	justify-content: center;
+	margin: -2px;
+	filter: brightness(225%);
+}
+
+.titulo-secundario {
+	padding-left: 40px;
+	text-align: left;
+	color: rgb(7, 6, 6);
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.titulo-principal {
+	padding-left: 20px;
+	text-align: center;
+	color: rgb(7, 6, 6);
+	font-size: 30px;
+	font-weight: bold;
+}
+
+body {
+	background: #FFFFFFFF;
+	position: relative;
+	height: 100%;
+	width: 100%;
+	min-height: 100vh;
+}
+
+h2 {
+	text-align: left;
+	font-size: 20px;
+	margin: 30px;
+	color: rgb(7, 6, 6);
+	font-weight: bold;
+}
+
+p {
+	text-align: justify;
+	font-size: 20px;
+	margin: 30px;
+	text-indent: 50px;
+}
+
+footer {
+	position: relative 0;
+	bottom: 0px;
+	width: 100%;
+	height: 20%;
+	background-color: rgb(214, 213, 213);
+}
+
+.copyright {
+	color: #0f0f0f;
+	margin: 20px 0 0;
+	text-align: center;
+	font-size: 15px;
+	padding: 50px;
+}
+
+table {
+	width: 100%;
+}
+
+thead {
+	border-radius: 20px !important;
+}
+
+thead th {
+	padding: 15px !important;
+	background: #119dfa;
+	color: #FFF;
+	font-weight: bold;
+}
+
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
+
+td,
+th {
+	/* width: 400px;
+	height: 5px; */
+	font-size: 15px;
+	text-align: justify;
+	vertical-align: middle;
+	padding: 6px 12px;
+	border: 1px solid #000000;
+}
+
+#fotos {
+	height: 100%;
+}
+
+#fotos img {
+	width: 400px;
+	height: 350px;
+	background-position: right, left;
+	padding: 20px;
+	margin: 30px;
+}
+
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+form {
+	margin: 40px 0;
+	padding: 50px;
+	background: #EEE;
+	border-radius: 20px;
+}
+
+form label,
+form legend {
+	font-size: 15px;
+	margin-left: 10px;
+}
+
+select {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 100%;
+	border-radius: 10px;
+	border: 1px solid #ccc;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 95%;
+	border-radius: 10px;
+	border: 1px solid #ccc;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	width: 100%;
+	padding: 15px 0;
+	background: rgb(89, 189, 255);
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: rgb(62, 150, 209);
+}
+
+#fotos img {
+	background-color: #CCC;
+	
+	border-radius: 20px !important;
+}
+
+.btn {
+	text-decoration: none;
+	border: 1px solid;
+	border-radius: 10px;
+	padding: 5px 10px;
+
+	color: #FFF;
+	background-color: rgb(182, 182, 182);
+
+	transition: .2s
+}
+
+.btn.btn-red {
+	color: #FFF;
+	border: 1px solid #e40d0dfe;
+	background-color: #ff0000fe
+}
+
+.btn.btn-info {
+	color: #FFF;
+	border: 1px solid #0199fffe;
+	background-color: #0d8ee4fe
+}
+
+.btn:hover {
+	text-decoration: none;
+	padding: 10px 20px;
+	border-radius: 15px;
+}
+
+.btn.btn-red:hover {
+	border: 1px solid #e40d0dfe;
+	background-color: #da3131fe
+}
+
+.btn.btn-info:hover {
+	border: 1px solid #1188d8fe;
+	background-color: #1379bdfe
+}
+
+.rotate180 {
+	transform: rotate(45deg) translateX(180px) !important;
+}
