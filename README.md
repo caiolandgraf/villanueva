@@ -6,7 +6,7 @@
   <a href="https://caiolandgraf.github.io/villanueva">Acessar Projeto</a>
 </p>
 <p align="center">
-  <img alt="Image of project" src=".github/print.png" width="100%" style="border-radius: 50px !important">
+  <img alt="Image of project" src=".github/print.jpeg" width="100%" style="border-radius: 50px !important">
 </p>
 <br>
 
