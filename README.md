@@ -11,8 +11,8 @@
 <br>
 
 > -   Devs No Projeto
-> [@caiolandgraf](https://github.com/caiolandgraf/)
-> [@thayyyyyy](https://github.com/thayyyyyy/)
+
+> [@caiolandgraf](https://github.com/caiolandgraf/) - [@thayyyyyy](https://github.com/thayyyyyy/)
 
 ---
 
